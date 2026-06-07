@@ -1,0 +1,13 @@
+GitHub Pages 업로드 방법
+
+1. 기존 저장소 파일을 전부 삭제합니다.
+2. 이 ZIP을 압축 해제한 뒤, 압축 해제된 내용물 전체를 저장소 루트에 업로드합니다.
+   - index.html
+   - styles.css
+   - favicon.png
+   - assets/game.swf
+   - .nojekyll
+3. ZIP 파일 자체를 올리는 것이 아니라, ZIP 안의 파일들을 올려야 합니다.
+4. GitHub Pages 배포가 끝난 뒤 Ctrl + F5로 강력 새로고침합니다.
+
+이번 버전은 SWF를 index.html 내부에도 내장해두어서 assets 경로 문제가 나도 기본 실행이 되도록 수정했습니다.
